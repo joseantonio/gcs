@@ -20,6 +20,7 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
+
 /* ----------------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ----------------------------------------------- */
@@ -100,7 +101,7 @@ h3 {
 /* ----------------------------------------------- */
 
 header {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/dsc_2393.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/DSC_2392-min.JPG);
 	background-size: cover;
 	height: 100vh;
 	background-position: center;
@@ -201,3 +202,47 @@ border-bottom: 2px solid #0E77E8;
 .section-rentals .long-copy {
 	margin-bottom: 30px;
 }
+
+/* ----------------------------------------------- */
+/* PHOTOS */
+/* ----------------------------------------------- */
+
+.section-photos {
+	padding:0;
+}
+
+.rooms-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.rooms-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.rooms-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+ }
+
+ .rooms-photo img {
+ 	opacity: 0.70;
+ 	width: 100%;
+ 	height: auto;
+ 	-webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+ 	transform: scale(1.15);
+ 	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+ 	transition: transform 0.5s opacity 0.5s;
+ }
+
+ .rooms-photo img:hover {
+ 	opacity: 1;
+ 	-webkit-transform: scale(1.03);
+ 	-ms-transform: scale(1.03);
+ 	transform: scale(1.03);
+ }
