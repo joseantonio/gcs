@@ -1,5 +1,4 @@
 
-
 /* ----------------------------------------------- */
 /* BASIC SETUP */
 /* ----------------------------------------------- */
@@ -230,7 +229,7 @@ border-bottom: 2px solid #0E77E8;
  }
 
  .rooms-photo img {
- 	opacity: 0.70;
+ 	opacity: 0.80;
  	width: 100%;
  	height: auto;
  	-webkit-transform: scale(1.15);
