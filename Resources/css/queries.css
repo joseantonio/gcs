@@ -1,4 +1,4 @@
-/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+/* Big tablet to 1200px (widths smaller that the 1140px row) */
 @media only screen and (max-width: 1200px) {
     .gcs-text-box {
         width: 100%;
@@ -6,6 +6,8 @@
     }
     
     .row { padding: 0 2%; }
+    header {background-attachment: scroll;}
+    .section-testimonials {background-attachment: scroll;}
 }
 
 
@@ -40,6 +42,8 @@
     
     .plan-price { font-size: 250%; }
     .contact-form { width: 80%; }
+    header {background-attachment: scroll;}
+    .section-testimonials {background-attachment: scroll;}
 }
 
 
@@ -108,13 +112,22 @@
     
     .works-step { margin-bottom: 20px; }
     .works-step:last-of-type { margin-bottom: 20px; }
-    
+    header {background-attachment: scroll;}
+    .section-testimonials {background-attachment: scroll;}
 }
-
-
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
     .contact-form {width: 100%; }
+    .logo {height: 70px; }
+    header {background-attachment: scroll;}
+    .section-testimonials {background-attachment: scroll;}
+}
+
+@media only screen and (max-width: 320px) {
+    .btn:link {padding: 10px 25px; }
+    .logo {height: 65px; }
+    header {background-attachment: scroll;}
+    .section-testimonials {background-attachment: scroll;}
 }
