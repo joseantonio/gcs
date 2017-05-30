@@ -81,4 +81,19 @@ $(document).ready(function() {
             icon.removeClass('ion-close-round');
         }        
     });
+       var map = new GMaps({
+      div: '.map',
+      lat: 8.9769026,
+      lng: -79.5100,
+      zoom: 14
+    });
+
+           map.addMarker({
+      lat: 8.9769191,
+      lng: -79.524621,
+      title: 'Panama',
+      infoWindow: {
+  content: '<p>Waldorf Astoria, 47th St. & Uruguay Street, Panama city. Unit #1902.</p>'
+}
+    });
 });
